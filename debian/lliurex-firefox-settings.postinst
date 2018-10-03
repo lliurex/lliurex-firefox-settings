@@ -1,0 +1,46 @@
+#!/bin/sh
+set -e
+
+ORIG_FILE="/etc/xul-ext/ubufox.js"
+OUR_FILE="/etc/xul-ext/lliurex.js"
+DIST_ORIG_FILE="/usr/lib/firefox/distribution/distribution.ini"
+DIST_OUR_FILE="/usr/lib/firefox/distribution/lliurex.ini"
+SERVER_HP="/usr/share/lliurex-firefox-settings/lliurex-firefox.properties"
+STANDALONE_HP="/usr/share/lliurex-firefox-settings/lliurex-firefox_standalone.properties"
+WORKFILE="/etc/firefox/lliurex-firefox.properties"
+
+case $1 in 
+
+	configure)
+		if dpkg-divert --package lliurex-firefox-settings--add  --rename  --divert ${ORIG_FILE}.real ${ORIG_FILE} ; then
+			ln -fs ${OUR_FILE} ${ORIG_FILE}
+		else
+			echo "Unabe to divert file ${ORIG_FILE}"
+		fi
+		if dpkg-divert --package lliurex-firefox-settings--add  --rename  --divert ${DIST_ORIG_FILE}.real ${DIST_ORIG_FILE} ; then
+			ln -fs ${DIST_OUR_FILE} ${DIST_ORIG_FILE}
+		else
+			echo "Unabe to divert file ${ORIG_FILE}"
+		fi
+		if lliurex-version -f | /bin/egrep "(server|client)" > /dev/null 2>&1
+		then
+			if [ `n4d-client -c ZCenterVariables -m get_state -a zero-server-wizard` -eq 1 ] 
+			then
+				ln -fs ${SERVER_HP} ${WORKFILE} 
+			elif lliurex-version -f | /bin/egrep "client" > /dev/null 2>&1
+			then
+				ln -fs ${SERVER_HP} ${WORKFILE} 
+			else
+				ln -fs ${STANDALONE_HP} ${WORKFILE}
+			fi
+
+		else 
+			ln -fs ${STANDALONE_HP} ${WORKFILE}
+		fi
+		;;
+	*)
+		echo "Nothing to do"
+		;; 
+esac
+
+#DEBHELPER#

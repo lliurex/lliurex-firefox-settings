@@ -1,0 +1,25 @@
+#!/bin/sh
+set -e
+
+ORIG_FILE="/etc/xul-ext/ubufox.js"
+OUR_FILE="/etc/xul-ext/lliurex.js"
+DIST_ORIG_FILE="/usr/lib/firefox/distributions/distribution.ini"
+DIST_OUR_FILE="/usr/lib/firefox/distributions/lliurex.ini"
+WORKFILE="/etc/firefox/lliurex-firefox.properties"
+
+case $1 in 
+	remove|purge|abort-install|disappear)
+		if [ -f ${ORIG_FILE}.real ] ; then
+			dpkg-divert --package lliurex-firefox-settings-client --rename --quiet --remove ${ORIG_FILE}|| true
+		fi
+		if [ -f ${DIST_ORIG_FILE}.real ] ; then
+			dpkg-divert --package lliurex-firefox-settings-client --rename --quiet --remove ${DIST_ORIG_FILE}|| true
+		fi
+		rm $WORKFILE
+		;;
+	*)
+		echo "Nothing to do"
+		;; 
+esac
+
+#DEBHELPER#
