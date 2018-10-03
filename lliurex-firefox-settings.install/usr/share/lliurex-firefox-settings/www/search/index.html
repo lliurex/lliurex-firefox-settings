@@ -1,0 +1,91 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<html lang="ca" dir="ltr">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Lliurex Start Page</title>
+	
+	
+	<!--
+	
+	    WIP
+		
+	    
+	    Crear els links a mestre a casa, etc. en javacript i que els pose on toque
+		
+		I buscar imatge de fons...
+		
+	-->
+	
+	<link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.min.css"/>
+	
+	
+	<link rel="stylesheet" type="text/css" href="css/feedek.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	
+	<script type="text/javascript" src="lib/jquery-3.1.1.min.js"></script>
+	<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+	<script src="lib/isotope.pkgd.min.js"></script>
+	
+	<script type="text/javascript" src="lib/moment-with-locales.min.js"></script>
+	<!--script type="text/javascript" src="lib/moment.min.js"></script-->
+	<script type="text/javascript" src="lib/feedek.js"></script>
+
+	
+	<script type="text/javascript" src="js/index.js"></script>
+    
+</head>
+<body>
+	<div id="headerbg"><div id="header"> </div></div>
+	
+	<!--div class="col-md-1"></div> <!-- left container -->
+	<div class="container" id="mainContainer">
+		
+		
+		<!--div id="main"-->
+			
+			<!-- Google Search -->
+			<div class="row">
+			<div id="search" class="col-md-10 col-md-offset-1">
+			<form method="get" class="search-form form-inline" action="http://www.google.com/search" name="search">
+				<span class="google"><a href="http://www.google.com">	</a></span>
+				<input name="q" value="" x-webkit-speech="" id="sbi" type="search" class="form-control" size="40"/>
+				<button id="sbtn" type="submit" class="btn btn-primary">
+					<span id="sspan"></span>
+					<span class="acchide glyphicon glyphicon-search"></span><span>&nbsp;Busca</span>
+				</button>
+				<input name="ie" value="UTF-8" type="hidden" />
+				<input name="sa" value="Search" type="hidden" />
+				<input name="channel" value="fe" type="hidden" />
+				<input name="client" value="browser-ubuntu" type="hidden" />
+				<input title="search" name="hl" value="en" type="hidden" />
+			</form>
+			</div> <!-- end Google Search -->
+			</div> <!-- row -->
+			
+			
+			<div class="row" style="margin-bottom: 48px;">
+					<!--div class="linkTypeIcon" target="*"></div-->
+
+		
+		
+		<div id="links" class="row">
+			<div class="grid col-md-7 col-md-offset-2" id="linksContainer">
+			</div>
+			
+			<div class="col-md-3" id="newscontainer">
+				<span class="newscontainerspan"></span>&nbsp;Notícies
+				<div id="lliurex_news"></div>
+			</div>
+			
+		</div>
+		
+	</div>
+	<!--div id="footer">
+			<?php echo($welcomemsg); ?>
+		</div-->
+
+    
+</body>
+</html>

@@ -1,0 +1,6 @@
+body{font-size:93.75%}
+.tl,.tr,.bl,.br{position:absolute}
+.tl,.tr{top:0}
+.bl,.br{bottom:0}
+.tl,.bl{left:0}
+.tr,.br{right:0}
