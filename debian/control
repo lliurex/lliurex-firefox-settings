@@ -2,9 +2,9 @@ Source: lliurex-firefox-settings
 Section: utils
 Priority: optional
 Maintainer: Equipo LliureX <lliurex@gva.es>
-Uploaders: Raul Rodrigo Segura <lliurex_devel3@edu.gva.es>, Enrique Medina Gremaldos <lliurex_devel4@edu.gva.es>, David Montalva Furio <dmontalf@gmail.com>, Héctor García Huerta <lliurex_devel1@edu.gva.es>, José Alfredo Múrcia Andrés <joamuran@gmail.com>, Daniel duran Vecino <daduve@gmail.com>, Juanma Navarro <juanma1980@gmail.com>
+Uploaders: M.Angel Juan <m.angel.juan@gmail.com>, Raul Rodrigo Segura <lliurex_devel3@edu.gva.es>, Hector Garcia Huerta <lliurex_devel1@edu.gva.es>, Daniel Duran Vecino <daduve@gmail.com>, Juanma Navarro <juanma1980@gmail.com>, Juan Ramon Pelegrina <juapesai@hotmail.com>
 Build-Depends: debhelper (>= 7.0)
-Standards-Version: 3.9.3
+Standards-Version: 3.9.5
 
 Package: lliurex-firefox-settings
 Architecture: all
