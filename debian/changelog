@@ -1,3 +1,9 @@
+lliurex-firefox-settings (0.9.1) bionic; urgency=medium
+
+  * Fix enabledscopes pref
+
+ -- Juanma Navarro Mañez <juanma1980@gmail.com>  Mon, 24 Dec 2018 09:30:02 +0100
+
 lliurex-firefox-settings (0.9) xenial; urgency=medium
 
   * Bionic release
