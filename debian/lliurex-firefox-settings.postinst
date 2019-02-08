@@ -12,11 +12,11 @@ WORKFILE="/etc/firefox/lliurex-firefox.properties"
 case $1 in 
 
 	configure)
-		if dpkg-divert --package lliurex-firefox-settings--add  --rename  --divert ${ORIG_FILE}.real ${ORIG_FILE} ; then
-			ln -fs ${OUR_FILE} ${ORIG_FILE}
-		else
-			echo "Unabe to divert file ${ORIG_FILE}"
-		fi
+#		if dpkg-divert --package lliurex-firefox-settings--add  --rename  --divert ${ORIG_FILE}.real ${ORIG_FILE} ; then
+#			ln -fs ${OUR_FILE} ${ORIG_FILE}
+#		else
+#			echo "Unabe to divert file ${ORIG_FILE}"
+#		fi
 		if dpkg-divert --package lliurex-firefox-settings--add  --rename  --divert ${DIST_ORIG_FILE}.real ${DIST_ORIG_FILE} ; then
 			ln -fs ${DIST_OUR_FILE} ${DIST_ORIG_FILE}
 		else

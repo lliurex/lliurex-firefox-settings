@@ -1,3 +1,9 @@
+lliurex-firefox-settings (0.9.2) bionic; urgency=medium
+
+  * No need to divert ubufox anymore 
+
+ -- Juanma Navarro Mañez <juanma1980@gmail.com>  Fri, 08 Feb 2019 15:47:17 +0100
+
 lliurex-firefox-settings (0.9.1) bionic; urgency=medium
 
   * Fix enabledscopes pref
