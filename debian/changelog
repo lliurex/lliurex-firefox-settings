@@ -1,3 +1,9 @@
+lliurex-firefox-settings (0.9.3) bionic; urgency=medium
+
+  * Show bookmark toolbar by default
+
+ -- Juanma Navarro Mañez <juanma1980@gmail.com>  Wed, 05 Jun 2019 17:06:02 +0200
+
 lliurex-firefox-settings (0.9.2) bionic; urgency=medium
 
   * No need to divert ubufox anymore 
