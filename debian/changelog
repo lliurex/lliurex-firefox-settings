@@ -1,3 +1,9 @@
+lliurex-firefox-settings (0.10) bionic; urgency=medium
+
+  * Update welcome page
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Fri, 05 Jul 2019 12:27:13 +0200
+
 lliurex-firefox-settings (0.9.3) bionic; urgency=medium
 
   * Show bookmark toolbar by default
