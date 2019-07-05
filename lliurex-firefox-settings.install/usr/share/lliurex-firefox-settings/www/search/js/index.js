@@ -156,11 +156,11 @@ var url=document.location.toString().split("/").slice(0,-1).join("/")+"/getRemot
         });
    
    var links={
+    null1:{url:"",img:"", desc:""},
+    null2:{url:"",img:"", desc:""},
     lliurex:{url:"http://www.lliurex.net",img:"lliurex.png", desc:"web de LliureX"},
     wiki:{url:"http://wiki.lliurex.net/Inicio",img:"wiki.png", desc:"wiki de LliureX"},
-    foro:{url: "http://mestreacasa.gva.es/web/lliurex/forums", img:"foro.png",  desc:"fòrum de LliureX"},
-    mac:{url: "http://mestreacasa.gva.es/web/guest/inicio", img:"mac.png",  desc:"Mestre a Casa"},
-    wikipedia:{url: "http://www.wikipedia.org/", img:"wikipedia.png",  desc:"Wikipèdia"}
+    foro:{url: "http://mestreacasa.gva.es/web/lliurex/forums", img:"foro.png",  desc:"fòrum de LliureX"}
     };
    
    drawLinks(links);
