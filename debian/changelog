@@ -1,3 +1,9 @@
+lliurex-firefox-settings (0.10.1) bionic; urgency=medium
+
+  * Fix postinstall
+
+ -- Juanma Navarro Mañez <juanma1980@gmail.com>  Fri, 12 Jul 2019 08:31:06 +0200
+
 lliurex-firefox-settings (0.10) bionic; urgency=medium
 
   * Update welcome page

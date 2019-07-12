@@ -17,7 +17,7 @@ case $1 in
 #		else
 #			echo "Unabe to divert file ${ORIG_FILE}"
 #		fi
-		if dpkg-divert --package lliurex-firefox-settings--add  --rename  --divert ${DIST_ORIG_FILE}.real ${DIST_ORIG_FILE} ; then
+		if dpkg-divert --package lliurex-firefox-settings --add  --rename  --divert ${DIST_ORIG_FILE}.real ${DIST_ORIG_FILE} ; then
 			ln -fs ${DIST_OUR_FILE} ${DIST_ORIG_FILE}
 		else
 			echo "Unabe to divert file ${ORIG_FILE}"
