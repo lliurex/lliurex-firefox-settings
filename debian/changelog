@@ -1,3 +1,9 @@
+lliurex-firefox-settings (0.12) Bionic; urgency=medium
+
+  * Disables privacy notice tab
+
+ -- Juanma1980 <juanma1980@gmail.com>  Thu, 28 May 2020 12:09:12 +0200
+
 lliurex-firefox-settings (0.11) bionic; urgency=medium
 
   * Enable userchrome (default disabled>=68.0)
