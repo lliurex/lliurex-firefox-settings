@@ -1,8 +1,26 @@
-lliurex-firefox-settings (0.12) bionic; urgency=medium
+lliurex-firefox-settings (0.13) bionic; urgency=medium
 
   * New web version
 
  -- Raul Rodrigo Segura <raurodse@gmail.com>  Mon, 20 Jul 2020 16:31:08 +0200
+
+lliurex-firefox-settings (0.12) Bionic; urgency=medium
+
+  * Disables privacy notice tab
+
+ -- Juanma1980 <juanma1980@gmail.com>  Thu, 28 May 2020 12:09:12 +0200
+
+lliurex-firefox-settings (0.11) bionic; urgency=medium
+
+  * Enable userchrome (default disabled>=68.0)
+
+ -- Juanma1980 <juanma1980@gmail.com>  Thu, 21 May 2020 08:22:50 +0200
+
+lliurex-firefox-settings (0.10.1) bionic; urgency=medium
+
+  * Fix postinstall
+
+ -- Juanma Navarro Mañez <juanma1980@gmail.com>  Fri, 12 Jul 2019 08:31:06 +0200
 
 lliurex-firefox-settings (0.10) bionic; urgency=medium
 
