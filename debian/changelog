@@ -1,3 +1,9 @@
+lliurex-firefox-settings (0.12) bionic; urgency=medium
+
+  * New web version
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Mon, 20 Jul 2020 16:31:08 +0200
+
 lliurex-firefox-settings (0.10) bionic; urgency=medium
 
   * Update welcome page
