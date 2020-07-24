@@ -24,7 +24,7 @@ case $1 in
 		fi
 		if lliurex-version -f | /bin/egrep "(server|client)" > /dev/null 2>&1
 		then
-			if [ `n4d-client -c ZCenterVariables -m get_state -a zero-server-wizard` -eq 1 ] 
+			if [ "`n4d-vars getvalues SRV_IP`" != "" ] 
 			then
 				ln -fs ${SERVER_HP} ${WORKFILE} 
 			elif lliurex-version -f | /bin/egrep "client" > /dev/null 2>&1
