@@ -1,3 +1,9 @@
+lliurex-firefox-settings (0.13.1) bionic; urgency=medium
+
+  * Fix postint
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Fri, 24 Jul 2020 12:30:05 +0200
+
 lliurex-firefox-settings (0.13) bionic; urgency=medium
 
   * New web version
