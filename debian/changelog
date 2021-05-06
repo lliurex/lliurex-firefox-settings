@@ -1,6 +1,7 @@
-lliurex-firefox-settings (0.14) focal; urgency=medium
+lliurex-firefox-settings (0.14.1) focal; urgency=medium
 
   * first focal release
+  * Use qwant for searches
 
  -- Juanma1980 <juanma1980@gmail.com>  Tue, 27 Apr 2021 12:36:09 +0200
 
