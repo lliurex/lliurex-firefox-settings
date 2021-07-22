@@ -1,3 +1,11 @@
+lliurex-firefox-settings (0.15) focal; urgency=medium
+
+  * removing welcome splash. it offers user to make firefox default browser and
+    not only it doesn't work in plasma 5.19 but it also breaks firefox icon in
+    favorites menu.
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Thu, 22 Jul 2021 12:52:28 +0200
+
 lliurex-firefox-settings (0.14.1) focal; urgency=medium
 
   * first focal release
