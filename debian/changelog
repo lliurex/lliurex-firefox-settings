@@ -1,3 +1,9 @@
+lliurex-firefox-settings (0.14) bionic; urgency=medium
+
+  * Disabling about welcome
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Wed, 28 Jul 2021 08:50:47 +0200
+
 lliurex-firefox-settings (0.13.1) bionic; urgency=medium
 
   * Fix postint
