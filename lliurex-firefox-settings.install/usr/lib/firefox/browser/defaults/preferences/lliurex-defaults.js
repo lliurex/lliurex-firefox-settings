@@ -8,6 +8,7 @@ pref("browser.startup.restore_default_bookmarks", true);
 pref('general.config.obscure_value',0);
 pref('general.config.filename','lliurex.cfg');
 pref('browser.aboutwelcome.enabled',false);
+pref("print.tab_modal.enabled",false);
 //defaultPref("browser.startup.homepage","data:text/plain,browser.startup.homepage=http://server");
 // // Disable offline/disk caching of web pages - good if you have a central proxy
 // pref("browser.cache.offline.enable", false);
