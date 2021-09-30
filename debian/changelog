@@ -1,3 +1,9 @@
+lliurex-firefox-settings (0.16) focal; urgency=medium
+
+  * Disabled printa.tab_modal option 
+
+ -- Daniel Duran <daduve@gmail.com>  Thu, 30 Sep 2021 13:47:05 +0200
+
 lliurex-firefox-settings (0.15) focal; urgency=medium
 
   * removing welcome splash. it offers user to make firefox default browser and
