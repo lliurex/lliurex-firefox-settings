@@ -1,3 +1,9 @@
+lliurex-firefox-settings (0.15) bionic; urgency=medium
+
+  * disabling print modal option 
+
+ -- Daniel Duran <daduve@gmail.com>  Thu, 30 Sep 2021 13:39:31 +0200
+
 lliurex-firefox-settings (0.14) bionic; urgency=medium
 
   * Disabling about welcome
