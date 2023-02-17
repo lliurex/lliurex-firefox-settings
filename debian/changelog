@@ -1,3 +1,10 @@
+lliurex-firefox-settings (0.16) bionic; urgency=medium
+
+  * removing mestre-a-casa
+  * lliurex.net as portal.edu.gva.es/lliurex
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Fri, 17 Feb 2023 10:59:26 +0100
+
 lliurex-firefox-settings (0.15) bionic; urgency=medium
 
   * disabling print modal option 
