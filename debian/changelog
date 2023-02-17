@@ -1,3 +1,9 @@
+lliurex-firefox-settings (0.18) focal; urgency=medium
+
+  * Changing lliurex.net to portal.edu.gva.es/lliurex
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Fri, 17 Feb 2023 10:57:05 +0100
+
 lliurex-firefox-settings (0.17) focal; urgency=medium
 
   * Remove mestre a casa link
