@@ -1,6 +1,7 @@
-lliurex-firefox-settings (0.18lliurex23) jammy; urgency=medium
+lliurex-firefox-settings (0.19) jammy; urgency=medium
 
   * Jammy release
+  * Fix postinstall as firefox folder could not exist (snap)
 
  -- Juanma1980 <juanma1980@gmail.com>  Thu, 07 Sep 2023 12:50:50 +0200
 
