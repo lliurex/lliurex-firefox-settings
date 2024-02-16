@@ -1,3 +1,9 @@
+lliurex-firefox-settings (0.20) jammy; urgency=medium
+
+  * enable strict mode for adult content
+
+ -- Juanma1980 <juanma1980@gmail.com>  Fri, 16 Feb 2024 08:33:26 +0100
+
 lliurex-firefox-settings (0.19) jammy; urgency=medium
 
   * Jammy release
