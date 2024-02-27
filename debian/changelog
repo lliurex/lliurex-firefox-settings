@@ -1,3 +1,9 @@
+lliurex-firefox-settings (0.19) focal; urgency=medium
+
+  * Enable strict adult filter for qwant
+
+ -- Juanma1980 <juanma1980@gmail.com>  Tue, 27 Feb 2024 13:05:57 +0100
+
 lliurex-firefox-settings (0.18) focal; urgency=medium
 
   * Changing lliurex.net to portal.edu.gva.es/lliurex
