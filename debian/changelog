@@ -1,3 +1,9 @@
+lliurex-firefox-settings (0.21) focal; urgency=medium
+
+  * DDG as search engine
+
+ -- Juanma1980 <juanma1980@gmail.com>  Thu, 18 Jul 2024 14:32:13 +0200
+
 lliurex-firefox-settings (0.19) focal; urgency=medium
 
   * Enable strict adult filter for qwant
