@@ -22,9 +22,9 @@ case $1 in
 		else
 			echo "Unabe to divert file ${ORIG_FILE}"
 		fi
+		mkdir -p $(dirname WORKFILE) 2>/dev/null
 		if lliurex-version -f | /bin/egrep "(server|client)" > /dev/null 2>&1
 		then
-			mkdir -p $(dirname WORKFILE)
 			if [ "`n4d-vars getvalues SRV_IP`" != "" ] 
 			then
 				ln -fs ${SERVER_HP} ${WORKFILE} 
