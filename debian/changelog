@@ -1,3 +1,9 @@
+lliurex-firefox-settings (0.22lliurex23) jammy; urgency=medium
+
+  * Fix searchbox link
+
+ -- Juanma1980 <juanma1980@gmail.com>  Tue, 22 Oct 2024 08:12:45 +0200
+
 lliurex-firefox-settings (0.21) jammy; urgency=medium
 
   * Replace qwant with DDG
