@@ -1,3 +1,9 @@
+lliurex-firefox-settings (0.25.1) noble; urgency=medium
+
+  * New search page 
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Tue, 22 Apr 2025 09:03:28 +0200
+
 lliurex-firefox-settings (0.22lliurex25) noble; urgency=medium
 
   * Fix searchbox link
