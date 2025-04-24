@@ -1,3 +1,9 @@
+lliurex-firefox-settings (0.25.3) noble; urgency=medium
+
+  * small changes 
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Thu, 24 Apr 2025 14:26:58 +0200
+
 lliurex-firefox-settings (0.25.2) noble; urgency=medium
 
   * small changes to css 
