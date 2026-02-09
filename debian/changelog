@@ -1,3 +1,9 @@
+lliurex-firefox-settings (0.22.1) jammy-testing; urgency=medium
+
+  * Test version
+ 
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Mon, 09 Feb 2026 10:57:28 +0100
+
 lliurex-firefox-settings (0.22lliurex23) jammy; urgency=medium
 
   * Fix searchbox link
