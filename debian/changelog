@@ -1,3 +1,10 @@
+lliurex-firefox-settings (0.26) noble; urgency=medium
+
+  * Update URLs
+  * Install files for lliurex-on-chrome
+
+ -- Juanma1980 <juanma1980@gmail.com>  Wed, 11 Feb 2026 18:59:05 +0100
+
 lliurex-firefox-settings (0.25.5) noble; urgency=medium
 
   * Change biblioedu link 
