@@ -14,3 +14,10 @@ Description: Contains lliurex-firefox-settings
  This package contains the : lliurex-firefox-settings 
  resources.
 
+Package: lliurex-chromium-settings-natfree
+Architecture: all
+Depends: ${misc:Depends},lliurex-hot-fixes
+Description: Contains lliurex-chromium-settings-natfree
+ This package contains the : lliurex-chromium-settings-natfree
+ resources.
+
