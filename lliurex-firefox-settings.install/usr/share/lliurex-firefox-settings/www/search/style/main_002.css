@@ -134,6 +134,10 @@
     transition: background-color 0.3s;
 }
 
+#conditional-bookmark{
+    visibility:hidden;
+}
+
 
 body{
     background-color: var(--color-cardboardgray);
