@@ -1,3 +1,9 @@
+lliurex-firefox-settings (0.23) jammy; urgency=medium
+
+  * Added link to Easy-Sites page
+  
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Wed, 18 Feb 2026 16:04:12 +0100
+
 lliurex-firefox-settings (0.22lliurex23) jammy; urgency=medium
 
   * Fix searchbox link
