@@ -1,3 +1,9 @@
+lliurex-firefox-settings (0.28) noble; urgency=medium
+
+  * Trying to have firefox use system certificates instead of its own.  
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Thu, 11 Jun 2026 10:21:42 +0200
+
 lliurex-firefox-settings (0.27) noble; urgency=medium
 
   * Added chromium settings for main page for natfree
