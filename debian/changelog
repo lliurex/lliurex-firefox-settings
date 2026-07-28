@@ -1,3 +1,10 @@
+lliurex-firefox-settings (0.29) noble; urgency=medium
+
+  * Noticed old firefox do distribute libnssckbi.so . Updating depends with
+    newer firefox dependency
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Tue, 28 Jul 2026 12:55:53 +0200
+
 lliurex-firefox-settings (0.28) noble; urgency=medium
 
   * Trying to have firefox use system certificates instead of its own.  
