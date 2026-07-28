@@ -8,7 +8,7 @@ Standards-Version: 3.9.5
 
 Package: lliurex-firefox-settings
 Architecture: all
-Depends: ${misc:Depends}, lliurex-on-fire, firefox(>=59)
+Depends: ${misc:Depends}, lliurex-on-fire, firefox(>=147)
 Conflicts: lliurex-firefox-settings-client (<= 0.4), lliurex-dgti-conf-firefox
 Description: Contains lliurex-firefox-settings
  This package contains the : lliurex-firefox-settings 
