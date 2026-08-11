@@ -1,17 +1,13 @@
 {
   "cards": [
     {
-      "title": "ESQUEMA: url obligatorio (si falta, es \"_url\", empieza por \"#\" o no es valida, la tarjeta se omite); title opcional (si falta o es vacio se usa la url); image opcional (si falta o no existe se usa la imagen por defecto); condition opcional (la tarjeta solo se muestra si esa url es alcanzable)",
-      "url": "#_url"
-    },
-    {
       "title": "Easy-Sites",
       "url": "http://server/easy-sites",
       "image": "images/easy-sites.png",
       "condition": "http://server/easy-sites"
     },
     {
-      "url": "https://www.google.com"
+      "url": "https://www.linux.com"
     },
     {
       "url": "http://server:8000"
