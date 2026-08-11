@@ -46,30 +46,24 @@ function createCard(card) {
 }
 
 async function loadCards() {
-    try {
-        const response = await fetch('cards.json', {cache: 'no-store'});
-        if (!response.ok) {
-            console.log(`cards.json not accesible (${response.status})`);
-            return;
+    if (!window.LLX_CARDS || !Array.isArray(window.LLX_CARDS.cards)) {
+        console.log('cards.js not accesible');
+        return;
+    }
+    for (const card of window.LLX_CARDS.cards) {
+        if (!isValidUrl(card.url)) {
+            console.log(`Skipping card with url ${card.url}`);
+            continue;
         }
-        const data = await response.json();
-        for (const card of data.cards) {
-            if (!isValidUrl(card.url)) {
-                console.log(`Skipping card with url ${card.url}`);
+        if (card.condition) {
+            if (!isValidUrl(card.condition)) {
                 continue;
             }
-            if (card.condition) {
-                if (!isValidUrl(card.condition)) {
-                    continue;
-                }
-                if (!(await isReachable(card.condition))) {
-                    continue;
-                }
+            if (!(await isReachable(card.condition))) {
+                continue;
             }
-            createCard(card);
         }
-    } catch (error) {
-        console.log('cards.json not accesible');
+        createCard(card);
     }
 }
 
