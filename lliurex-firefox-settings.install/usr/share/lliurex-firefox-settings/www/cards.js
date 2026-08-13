@@ -5,12 +5,6 @@ window.LLX_CARDS = {
             "url": "http://server/easy-sites",
             "image": "images/easy-sites.svg",
             "condition": "http://server/easy-sites"
-        },
-        {
-            "url": "https://www.linux.com"
-        },
-        {
-            "url": "http://server:8000"
         }
     ]
 };
